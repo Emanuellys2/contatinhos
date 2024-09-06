@@ -3,12 +3,10 @@ import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
     container: {
-        backgroundColor: theme.colors.gray_100,
-        borderRadius: 18,
-        height: 54,
+        width: "100%",
         flexDirection: "row",
         alignItems: "center",
-        padding: 12,
+        borderRadius: 18,
         gap: 7,
 
     },
