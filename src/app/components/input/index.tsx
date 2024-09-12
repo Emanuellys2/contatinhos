@@ -13,7 +13,6 @@ function Field( {...rest}: TextInputProps ){
         
 }
 
-Input.Field = Field /*adicionamos uma propriedade 'Field' ao Input, á
-qual atribuímos o componente 'Field()'*/
+Input.Field = Field 
 
 export { Input }
